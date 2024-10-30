@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link
               href={link.path}
               key={link.name}
-              className="inline-block px-14 text-lg"
+              className="inline-block px-14 text-lg hover:text-red-600"
             >
               {link.name}
             </Link>
